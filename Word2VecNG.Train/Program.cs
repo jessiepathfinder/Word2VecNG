@@ -260,7 +260,7 @@ namespace Word2VecNG.Train
 
 					}
 
-					str1 = "Tokenized {0}/" + wikilen + " simple english wikipedia articles";
+					str1 = "Tokenized {0}/" + mywikilen + " simple english wikipedia articles";
 
 					while (true)
 					{
