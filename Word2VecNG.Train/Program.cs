@@ -78,16 +78,16 @@ namespace Word2VecNG.Train
 		}
 		private const int maxContextSize = 4096;
 		private const int magicTokenClasses = 4;
-		private const int unorderedContextLookaroundSize = 3;
+		private const int unorderedContextLookaroundSize = 2;
 		private const uint latentTokenSize = 2048;
-		private const int orderedContextLookaroundSize = 7;
-		private const ulong preHash = 3;
+		private const int orderedContextLookaroundSize = 5;
+		private const ulong preHash = 2;
 
 
-		private const uint hashesPerWord = 4;
+		private const uint hashesPerWord = 8;
 
-		private const int unorderedPastLookaround = 5;
-		private const int unorderedFutureLookaround = 5;
+		private const int unorderedPastLookaround = 3;
+		private const int unorderedFutureLookaround = 3;
 
 		private static ulong XorShift64(ulong x){
 			x ^= x << 13;
